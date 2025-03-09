@@ -7,8 +7,6 @@ export const WHITELIST_DOMAINS = [
   'https://ecommernceapi.onrender.com/v1'
 ]
 
-ex
-
 export const BOADRS_TYPE ={
   PUBLIC: 'public',
   PRIVATE: 'private'
