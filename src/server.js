@@ -19,8 +19,8 @@ const START_SERVER = () => {
   app.use('/v1', APIsV1)
 
 
-  app.listen(env.APP_PORT, env.APP_HOST, () => {
-    console.log(`Hello, I am running at ${ env.APP_HOST }:${env.APP_PORT }`)
+  app.listen(env.APP_PORT, () => {
+    console.log(`Hello, I am running at ${env.APP_PORT }`)
   })
 
 }
