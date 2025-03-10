@@ -46,9 +46,10 @@ const remove = async (req, res, next) => {
 
 const findOneById = async (req, res, next) => {
   try {
-    const categoryId = req.params.id
 
+    const categoryId = req.params.id
     let validate = OBJECT_ID_RULE.test(categoryId)
+    console.log(validate)
     let category
     if (!validate) {
       category = await categoryService.findOneBySlug(categoryId)
