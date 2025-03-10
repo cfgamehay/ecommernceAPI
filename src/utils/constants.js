@@ -4,7 +4,8 @@ export const WHITELIST_DOMAINS = [
   'http://localhost:5501',
   'http://127.0.0.1:5501',
   'https://ecommernceapi.onrender.com',
-  'https://ecommernceapi.onrender.com/v1'
+  'https://ecommernceapi.onrender.com/v1',
+  'https://onrender.com'
 ]
 
 export const BOADRS_TYPE ={
